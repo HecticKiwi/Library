@@ -18,6 +18,21 @@
         <div class="books">
         </div>
     </main>
+    <div class="modal">
+        <div class="modal-content box">
+            <h2>New Book</h2>
+            <form>
+                <input type="text" name="author" placeholder="Author" class="author" required>
+                <input type="text" name="title" placeholder="Title" class="title" required>
+                <input type="number" name="pageCount" placeholder="Page Count" class="pageCount" required min="1">
+                <div>
+                    <label for="read">Have you read it?</label>
+                    <input type="checkbox" name="read" id="read" class="read">
+                </div>
+                <button type="submit" class="add button">Add</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
